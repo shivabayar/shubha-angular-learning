@@ -1,0 +1,11 @@
+<div class="dropdown">
+    <select name="singleSelect" id="country_list" ng-model="countryOptions">
+        <option ng-repeat="option in country" value="{{option.value}}">{{option.country}}</option>
+    </select>
+</div>
+<div class="dropdown">
+<select name="singleSelect" id="state_list" ng-model="stateOptions">
+    <option ng-repeat="option in states" value="{{option.value}}">{{option.state}}</option>
+</select>
+</div>
+{{countryOptions}}
